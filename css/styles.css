@@ -8,8 +8,8 @@ body{
 }
 
 h1{
-    background-color: aqua;
     font-size: 2.5;
+    text-align: center;
 }
 
 h2{
@@ -18,6 +18,32 @@ h2{
     font-size: 1.8rem;
 }
 
+.navegacion-principal a{
+    padding: 1rem 1rem 1rem 1rem;
+    text-align: center;
+    color: var(--oscuro);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.navegacion-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #008000;
+}
+
+@media (min-width: 768px) {
+    .navegacion-principal{
+        flex-direction: row;
+    }
+}
+
+.navegacion-principal a:hover{
+    background-color: #FFFFFF;
+    color: #000000;
+}
 
 .titulo{
     color: red;
