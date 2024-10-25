@@ -1,0 +1,47 @@
+body{
+    background-color: #AF7F00;
+}
+
+.tab-container-2{
+    background-color: #302B2A;
+    
+}
+
+.tab-container-1{
+    display: flex;
+    width: 55%;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.tab-container-1 div{
+    width: 15%;
+    text-align: center;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.tab-container-1 div :hover{
+    filter: brightness(1.5)
+}
+
+.tab-1{
+    text-align: center;
+            color: gainsboro;
+            font-family: Arial, sans-serif;
+            text-decoration: none;
+            font-size: 14px;
+}
+
+.tab-1 i{
+    margin-bottom: 15px;
+}
+
+.tab-1:hover{
+    color:white;
+}
