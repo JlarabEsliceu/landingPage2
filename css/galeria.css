@@ -1,0 +1,44 @@
+nav{
+    height: 10vh;
+    background-color: antiquewhite;
+    margin-bottom: 10px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2rem;
+    border: 5px solid black;
+
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.galeria{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    height: 70vh;
+}
+
+html{
+    background-color: lightblue;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    padding: 10px;
+    margin: 50px;
+}
+
+a:hover{
+    background-color: rebeccapurple;
+    color: white;
+    border-radius: 25px;
+    border: 5px solid black;
+}
