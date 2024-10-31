@@ -24,13 +24,13 @@ img{
     object-fit: cover;
 }
 
-.galeria{
+.galeria {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
-    height: 70vh;
+    grid-template-columns: repeat(3, 1fr); /* Three columns layout */
+    gap: 5px; /* Adjust the spacing between images */
     justify-items: center;
-}
+} 
+
 
 html{
     background-color: lightblue;
